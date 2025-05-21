@@ -1,0 +1,28 @@
+.resume{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin: 3rem 6rem;
+}
+.resume-title{
+    position: relative;
+}
+.resume-title h1{
+    padding: 0rem 1rem;
+    font-weight: 600;
+    font-size: 2rem;
+}
+.resume-title img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    height: 2.1rem;
+}
+.resume-img{
+    border: wheat;
+    height: 75rem;
+    padding: 4rem 1rem;
+}

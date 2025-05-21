@@ -1,0 +1,76 @@
+.hero{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+.hero img{
+    margin-top: 1.8rem;
+    border-radius: 50%;
+    background-color:gray;
+}
+.hero h1{
+    text-align: center;
+    width: 35rem;
+}
+.hero h1 span{
+    background: linear-gradient(270deg,#DF8908 10%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hero p{
+    width: 50%;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.2rem;
+}
+.hero-action{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+.hero-connect{
+    padding: 1rem 1.9rem;
+    border-radius: 2rem;
+    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
+    cursor: pointer;
+}
+.hero-resume{
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+    border: 0.1rem solid #fff;
+    cursor: pointer;
+}
+.hero-connect:hover{
+    border: 0.1rem solid white;
+}
+.hero-resume:hover{
+    border-color: #B415FF;
+}
+@media(max-width:768px){
+    .hero img{
+        margin-bottom: 4rem;
+        width: 14rem;
+    }
+    .hero h1{
+        margin-top: 1rem;
+        width: 90%;
+        font-size: 2.4rem;
+    }
+    .hero p{
+        width: 60%;
+        font-size: 1rem;
+        line-height: 1.4rem;
+        margin: 0.5rem 0rem;
+    }
+    .hero-action{
+        gap: 0.8rem;
+        font-size: 0.8rem;
+        font-weight: 500;
+        margin-bottom: 2rem;
+    }
+}
