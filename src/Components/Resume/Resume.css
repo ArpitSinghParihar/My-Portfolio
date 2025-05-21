@@ -26,3 +26,8 @@
     height: 75rem;
     padding: 4rem 1rem;
 }
+@media(max-width:768px){
+    .resume-img{
+        width: 44rem;
+    }
+}

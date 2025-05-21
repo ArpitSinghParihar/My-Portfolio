@@ -71,3 +71,19 @@
     border-radius: 2rem;
     background: linear-gradient(264deg,#DF8908 -5.09%, #B415FF 106.28%);
 }
+@media(max-width:768px){
+    .about-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-left{
+        width: 50%;
+    }
+    .about-right{
+        width: 50%;
+    }
+    .about-para{
+        width: 23rem;
+    }
+}

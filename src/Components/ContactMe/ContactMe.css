@@ -70,7 +70,7 @@
 }
 .contact-right input{
     border: none;
-    width: auto;
+    width: 30rem;
     height: 2.2rem;
     padding-left: 1rem;
     border-radius: 0.4rem;
@@ -80,7 +80,7 @@
     font-size: 1rem;
 }
 .contact-right textarea{
-    width: auto;
+    width: 30rem;
     border: none;
     padding: 1rem;
     border-radius: 0.3rem;
@@ -103,4 +103,21 @@
 .contact-submit:hover{
     transform: scale(1.1);
     transition: 0.3s;
+}
+@media(max-width:768px){
+    .contact{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .contact-section{
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        flex-direction: column;
+    }
+    .contact-left p{
+        width: 25rem;
+    }
 }

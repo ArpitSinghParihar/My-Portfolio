@@ -55,7 +55,6 @@ const ContactMe = () => {
                         </div>
                     </div>
                 </div>
-                <div>
                     <form onSubmit={onSubmit} className='contact-right'>
                         <label htmlFor="Your Name"></label>
                         <input type="text" placeholder='Enter your name' name='name' />
@@ -65,7 +64,6 @@ const ContactMe = () => {
                         <textarea name="message" rows='8' placeholder='Enter your message'></textarea>
                         <button type='submit' className="contact-submit">Submit now</button>
                     </form>
-                </div>
             </div>
         </div>
     )
