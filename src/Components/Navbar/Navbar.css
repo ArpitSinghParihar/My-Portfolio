@@ -63,6 +63,7 @@
         display: block;
         position: fixed;
         right: 1.4rem;
+        width: 1.4rem;
     }
     .nav-mob-close{
         display: block;
@@ -89,5 +90,12 @@
         padding-left: 4rem;
         flex-direction: row;
         gap: 0.8rem;
+    }
+    .logo-img{
+        height: 3rem;
+        width: 3rem;
+    }
+    .set-text span{
+        font-size: 0.9rem;
     }
 }
