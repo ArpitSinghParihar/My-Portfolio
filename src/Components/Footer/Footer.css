@@ -1,29 +1,33 @@
-.footer{
+.footer {
     margin: 2rem 6rem;
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
 }
-.footer-top{
+
+.footer-top {
     display: flex;
     justify-content: space-between;
 }
 
-.footer-top-left img{
+.footer-top-left img {
     height: 4rem;
     width: 4rem;
     border-radius: 50%;
 }
-.footer-top-left p{
+
+.footer-top-left p {
     font-size: 1rem;
     max-width: 13rem;
 }
-.footer-top-right{
+
+.footer-top-right {
     display: flex;
     align-items: center;
     gap: 1rem;
 }
-.footer-email-input{
+
+.footer-email-input {
     display: flex;
     gap: 1rem;
     padding: 0.7rem 1.1rem;
@@ -31,7 +35,8 @@
     background: #32323B;
     padding-right: 3.2rem;
 }
-.footer-email-input input{
+
+.footer-email-input input {
     outline: none;
     border: none;
     background: transparent;
@@ -39,9 +44,10 @@
     font-family: Outfit;
     font-size: 0.9rem;
     border-radius: 0.5rem;
- 
+
 }
-.footer-subscribe{
+
+.footer-subscribe {
     font-size: 1rem;
     padding: 0.8rem 2rem;
     border-radius: 2rem;
@@ -49,42 +55,99 @@
     cursor: pointer;
     transition: 0.3s;
 }
-.footer-bottom{
+
+.footer-bottom {
     display: flex;
     justify-content: space-between;
     font-size: 0.8rem;
 }
-.footer-bottom-right{
+
+.footer-bottom-right {
     display: flex;
     gap: 2rem;
     margin-bottom: 2rem;
 }
-.footer-email-input:hover{
+
+.footer-email-input:hover {
     border: 1px solid white;
 }
-.footer-subscribe:hover{
+
+.footer-subscribe:hover {
     transform: scale(1.1);
     transition: 0.3s;
 }
-@media(max-width:768px){
-    .footer-top{
+
+@media(max-width:768px) {
+    .footer-top {
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 2rem;
     }
-    .footer-top-right{
+
+    .footer-top-right {
         display: flex;
         flex-direction: column;
         align-items: end;
     }
-    .footer-top-left p{
+
+    .footer-top-left p {
         width: 16rem;
     }
-    .footer-email-input{
+
+    .footer-email-input {
         padding: 0.7rem 1rem;
     }
-    .footer-subscribe{
+
+    .footer-subscribe {
         padding: 0.6rem 1rem;
     }
+}
+
+@media(max-width:320px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem 1rem;
+    }
+
+    .footer-top {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    .footer-top-left {
+        width: 40%;
+    }
+
+    .footer-top-left img,
+    .footer-top-left p {
+        width: fit-content;
+    }
+
+    .footer-top-right {
+        width: 55%;
+    }
+
+    .footer-email-input {
+        width: 100%;
+        display: flex;
+        gap: 1rem;
+        padding: 0.4rem 0.4rem;
+        border-radius: 2rem;
+        background: #32323B;
+        padding-right: 3.2rem;
+    }
+    .footer-subscribe {
+        font-size: 0.7rem;
+        padding: 0.6rem 1rem;
+        border-radius: 1.5rem;
+        background: linear-gradient(264deg, #df8908 -5.09%, #B415FF 106.28%);
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    
 }

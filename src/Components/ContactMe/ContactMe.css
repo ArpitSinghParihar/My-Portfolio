@@ -120,4 +120,30 @@
     .contact-left p{
         width: 25rem;
     }
-}
+} 
+@media(max-width:320px){
+    .contact{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin: 3rem 1rem;
+    }
+    .contact-section{
+        display: flex;
+        gap: 1rem;
+        margin: 1rem 1rem;
+    }
+    .contact-left{
+        width: 100%;
+    }
+    .contact-right{
+        width: 100%;
+    }
+    .contact-left p{
+        width: 100%;
+    }
+    .contact-right textarea,.contact-right input{
+        width: 100%;
+    }
+} 
