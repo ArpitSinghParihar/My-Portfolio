@@ -54,7 +54,7 @@
 }
 @media(max-width:768px){
     .navbar{
-        margin-top: 0.2rem ;
+        margin: 0;
     }
     .nav-connect{
         display: none;
@@ -62,7 +62,7 @@
     .nav-mob-open{
         display: block;
         position: fixed;
-        right: 3rem;
+        right: 1.4rem;
         width: 1.4rem;
     }
     .nav-mob-close{
