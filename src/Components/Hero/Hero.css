@@ -45,6 +45,9 @@
     border: 0.1rem solid #fff;
     cursor: pointer;
 }
+.anchor-link{
+    text-decoration: none;
+}
 .hero-connect:hover{
     border: 0.1rem solid white;
 }

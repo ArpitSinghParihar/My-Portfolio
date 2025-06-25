@@ -26,6 +26,7 @@
     gap: 3rem;
 }
 .about-left{
+    display: block;
     width: 45%;
     margin: auto;
 }
@@ -78,13 +79,10 @@
         align-items: center;
     }
     .about-left{
-        width: 50%;
-    }
-    .about-left img{
-        width: 100%;
+        display: none;
     }
     .about-right{
-        width: 50%;
+        width: 100%;
     }
     .about-para{
         width: 100%;
