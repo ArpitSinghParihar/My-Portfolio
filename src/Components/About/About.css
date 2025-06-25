@@ -73,6 +73,9 @@
     background: linear-gradient(264deg,#DF8908 -5.09%, #B415FF 106.28%);
 }
 @media(max-width:768px){
+    .about{
+    margin: 1rem;
+}
     .about-section{
         display: flex;
         justify-content: center;

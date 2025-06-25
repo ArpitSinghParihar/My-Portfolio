@@ -110,6 +110,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        margin: 1rem;
     }
     .contact-section{
         display: flex;
@@ -117,8 +118,21 @@
         /* align-items: center; */
         flex-direction: column;
     }
+    .contact-left{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
     .contact-left p{
-        width: 25rem;
+        width: 100%;
+    }
+    .contact-right{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+     .contact-right textarea,.contact-right input{
+        width: 100%;
     }
 } 
 @media(max-width:320px){
