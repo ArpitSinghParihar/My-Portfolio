@@ -7,30 +7,51 @@ import menu_open from '../../assets/menu_open.svg'
 import menu_close from '../../assets/menu_close.svg'
 const Navbar = () => {
 
-  const [menu,setMenu] = useState("home")
+  const [menu, setMenu] = useState("home")
   const menuRef = useRef();
 
-  const openMenu = ()=>{
-    menuRef.current.style.right="0";
+  const openMenu = () => {
+    menuRef.current.style.right = "0";
   }
-  const closeMenu = ()=>{
-    menuRef.current.style.right="-14rem";
+  const closeMenu = () => {
+    menuRef.current.style.right = "-14rem";
   }
 
   return (
     <div className='navbar'>
-      <div className='set-text'><img src={logo} alt="" className='logo-img'/><span>Arpit's portfolio</span></div>
-      <img src={menu_open} onClick={openMenu} alt="" className='nav-mob-open'/>
+      <div className='set-text'><img src={logo} alt="" className='logo-img' /><span>Arpit's portfolio</span></div>
+      <img src={menu_open} onClick={openMenu} alt="" className='nav-mob-open' />
       <ul ref={menuRef} className='nav-menu'>
         <img src={menu_close} onClick={closeMenu} alt="" className="nav-mob-close" />
-        <li><AnchorLink className='anchor-link' offset={50} href='#home'><p onClick={()=>setMenu("home")}>Home</p></AnchorLink>{menu=="home"?<img src={underline} alt=''/>:<></>}</li>
-        <li><AnchorLink className='anchor-link' offset={50} href='#about'><p onClick={()=>setMenu("about")}>About me</p></AnchorLink>{menu=="about"?<img src={underline} alt=''/>:<></>}</li>
-        <li><AnchorLink className='anchor-link' offset={50} href='#resume'><p onClick={()=>setMenu("services")}>Services</p></AnchorLink>{menu=="services"?<img src={underline} alt=''/>:<></>}</li>
-        <li><AnchorLink className='anchor-link' offset={50} href='#about'><p onClick={()=>setMenu("work")}>Portfolio</p></AnchorLink>{menu=="work"?<img src={underline} alt=''/>:<></>}</li>
-        <li><AnchorLink className='anchor-link' offset={50} href='#contact'><p onClick={()=>setMenu("contact")}>Contact</p></AnchorLink>{menu=="contact"?<img src={underline} alt=''/>:<></>}</li>
+        <li><AnchorLink className='anchor-link' offset={50} href='#home'><p onClick={() => setMenu("home")}>Home</p></AnchorLink>{menu == "home" ? <img src={underline} alt='' /> : <></>}</li>
+        <li><AnchorLink className='anchor-link' offset={50} href='#about'><p onClick={() => setMenu("about")}>About me</p></AnchorLink>{menu == "about" ? <img src={underline} alt='' /> : <></>}</li>
+        <li><AnchorLink className='anchor-link' offset={50} href='#resume'><p onClick={() => setMenu("services")}>My Resume</p></AnchorLink>{menu == "services" ? <img src={underline} alt='' /> : <></>}</li>
+        <li><AnchorLink className='anchor-link' offset={50} href='#about'><p onClick={() => setMenu("work")}>Portfolio</p></AnchorLink>{menu == "work" ? <img src={underline} alt='' /> : <></>}</li>
+        <li><AnchorLink className='anchor-link' offset={50} href='#contact'><p onClick={() => setMenu("contact")}>Contact</p></AnchorLink>{menu == "contact" ? <img src={underline} alt='' /> : <></>}</li>
+        <li > <div style={{ display: 'flex', alignItems: 'center' }}>
+            <a
+              href="https://www.linkedin.com/in/arpit-singh-parihar-67696b330/"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ textDecoration: 'none', color: '#0A66C2' }}
+            >
+              <i className="fab fa-linkedin" style={{ marginRight: '9px', fontSize: '24px' }}></i>
+        
+            </a>
+
+            <a
+              href="https://www.instagram.com/_kunwar_arpit_singh"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ textDecoration: 'none', color: '#E4405F' }}
+            >
+              <i className="fab fa-instagram" style={{ marginRight: '8px', fontSize: '24px' }}></i>
+            
+            </a> </div></li>
       </ul>
+     
       <div className='nav-connect'><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect With Me</AnchorLink></div>
-    </div>
+      </div>
   )
 }
 
