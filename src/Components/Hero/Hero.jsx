@@ -11,7 +11,9 @@ const Hero = () => {
             <p>To showcase my skills in web development and voice assistant technologies by presenting innovative projects, My goal is to create responsive, intelligent, and user-friendly applications that reflect both technical strength and creative problem-solving.
             </p>
             <div className="hero-action">
-                <div className="hero-connect"><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect with me</AnchorLink></div>
+                <a href="https://wa.me/919691380973" target="_blank" rel="noopener noreferrer">
+                    <div className="hero-connect">Chat with me</div>
+                </a>
                 <div className="hero-resume"><AnchorLink className='anchor-link' offset={50} href='#resume'>My resume</AnchorLink></div>
             </div>
         </div>

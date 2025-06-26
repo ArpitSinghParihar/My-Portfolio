@@ -13,7 +13,7 @@ const Resume = () => {
                 <iframe src={resume_img} title="Resume" className="resume-frame"></iframe>
             </div>
             {/* <img className='resume-img' src={resume_img} alt="" /> */}
-            <div className="resume-button">
+            <div id='resume' className="resume-button">
                 <a
                     href={resume_img}
                     target="_blank"
