@@ -10,7 +10,7 @@ const Resume = () => {
                     <h1>My Resume</h1>
                     <img src={theme} alt="" />
                 </div>
-                <iframe src={resume_img} title="Resume" className="resume-frame"></iframe>
+                 <img src={resume_img} title="Resume" className="resume-frame" />
             </div>
             {/* <img className='resume-img' src={resume_img} alt="" /> */}
             <div id='resume' className="resume-button">

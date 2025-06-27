@@ -8,7 +8,7 @@ import Resume from './Components/Resume/Resume'
 
 const App = () => {
   return (
-    <div>
+    <div style={{width:'100%'}}>
       <Navbar/>
       <Hero/>
       <About/>
