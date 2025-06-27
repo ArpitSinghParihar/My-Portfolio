@@ -1,79 +1,95 @@
-.navbar{
+.navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0.9rem 2rem;
+    overflow-x: hidden;
 }
-.logo-img{
+
+.logo-img {
     height: 4rem;
     width: 4rem;
     border-radius: 50%;
 }
-.set-text{
+
+.set-text {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.nav-menu{
+
+.nav-menu {
     display: flex;
     align-items: center;
     list-style: none;
+    right: -14rem;
     gap: 2.4rem;
     font-size: 1.3rem;
 }
 
-.nav-connect{
+.nav-connect {
     padding: 0.6rem 0.6rem;
     border-radius: 2rem;
-    background: linear-gradient(267deg,#DA7C25 0.36%, #B923E1 102.06%);
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
     font-size: 1.3rem;
     cursor: pointer;
     transition: 0.5s;
 }
-.nav-connect:hover{
+
+.nav-connect:hover {
     transform: scale(1.05);
 }
-.nav-menu li{
+
+.nav-menu li {
     display: flex;
     flex-direction: column;
     gap: 0.2rem;
     cursor: pointer;
 }
-.nav-menu li img{
+
+.nav-menu li img {
     display: flex;
     margin: auto;
 }
-.anchor-link{
+
+.anchor-link {
     text-decoration: none;
     color: white;
 }
-.nav-mob-close{
+
+.nav-mob-close {
     display: none;
 }
-.nav-mob-open{
+
+.nav-mob-open {
     display: none;
 }
-@media(max-width:768px){
-    .navbar{
+
+@media(max-width:768px) {
+    .navbar {
         margin: 1rem;
     }
-    .nav-connect{
+
+    .nav-connect {
         display: none;
     }
-    .nav-mob-open{
+
+    .nav-mob-open {
         display: block;
         position: fixed;
         right: 1.4rem;
         width: 1.4rem;
     }
-    .nav-mob-close{
+
+    .nav-mob-close {
         display: block;
         position: relative;
         top: 1.2rem;
         left: 12rem;
         width: 1.2rem;
     }
-    .nav-menu{
+
+    .nav-menu {
         position: fixed;
         flex-direction: column;
         align-items: start;
@@ -84,19 +100,22 @@
         height: 100%;
         z-index: 2;
         transition: right 0.5s;
-        right:-14rem;
+        right: -14rem;
     }
-    .nav-menu li{
+
+    .nav-menu li {
         font-size: 1.2rem;
         padding-left: 4rem;
         flex-direction: row;
         gap: 0.8rem;
     }
-    .logo-img{
+
+    .logo-img {
         height: 3rem;
         width: 3rem;
     }
-    .set-text span{
+
+    .set-text span {
         font-size: 0.9rem;
     }
 }
