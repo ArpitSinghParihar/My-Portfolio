@@ -77,6 +77,8 @@
     .resume-button {
         display: block;
     }
-
+    .resume{
+        margin: 3rem 1rem;
+    }
 
 }
