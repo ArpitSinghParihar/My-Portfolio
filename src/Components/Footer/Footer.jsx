@@ -2,12 +2,13 @@ import React, { use } from 'react'
 import './Footer.css'
 import footer_logo from '../../assets/Arpit-port.png'
 import user_icon from '../../assets/user_icon.svg'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 const Footer = () => {
   return (
     <div className='footer'>
       <div className="footer-top">
-        <div className="footer-top-left">
-            <img src={footer_logo} alt="" />
+        <div className="footer-top-left" >
+            <AnchorLink className='anchor-link' href='#navbar-id'><img src={footer_logo} alt="" /></AnchorLink>
             <p>I am a full stack developer from Bhopal, Madhya Pradesh </p>
         </div>
         <div className="footer-top-right">

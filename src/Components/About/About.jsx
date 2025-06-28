@@ -19,13 +19,13 @@ const About = () => {
                 <p>Through this portfolio, I aim to share my journey, skills, and the real-world impact of the projects I’ve created.</p>
             </div>
             <div className="about-skills">
-                <div className="about-skill"><p>HTML & CSS</p> <hr style={{width:"50%"}}/></div>
+                <div className="about-skill"><p>HTML & CSS</p> <hr style={{width:"90%"}}/></div>
                 <div className="about-skill"><p>React Js</p> <hr style={{width:"70%"}}/></div>
                 <div className="about-skill"><p>JavaScript</p> <hr style={{width:"60%"}}/></div>
                 <div className="about-skill"><p>ExpressJs</p> <hr style={{width:"50%"}}/></div>
-                <div className="about-skill"><p>Java</p> <hr style={{width:"60%"}}/></div>
-                <div className="about-skill"><p>Python</p> <hr style={{width:"50%"}}/></div>
-                <div className="about-skill"><p>Data structure</p> <hr style={{width:"40%"}}/></div>
+                <div className="about-skill"><p>Java</p> <hr style={{width:"50%"}}/></div>
+                <div className="about-skill"><p>Python</p> <hr style={{width:"40%"}}/></div>
+                <div className="about-skill"><p>Data structure</p> <hr style={{width:"30%"}}/></div>
                 <div className="about-skill"><p>Tailwind Css</p> <hr style={{width:"90%"}}/></div>
             </div>
         </div>
