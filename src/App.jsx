@@ -5,10 +5,11 @@ import About from './Components/About/About'
 import ContactMe from './Components/ContactMe/ContactMe'
 import Footer from './Components/Footer/Footer'
 import Resume from './Components/Resume/Resume'
+import './App.css'
 
 const App = () => {
   return (
-    <div style={{width:'100%'}}>
+    <div className='main-container'>
       <Navbar/>
       <Hero/>
       <About/>
