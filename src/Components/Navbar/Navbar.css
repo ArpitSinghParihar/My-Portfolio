@@ -76,7 +76,7 @@
 
     .nav-mob-open {
         display: block;
-        position: fixed;
+        position: absolute;
         right: 1.4rem;
         width: 1.4rem;
     }
