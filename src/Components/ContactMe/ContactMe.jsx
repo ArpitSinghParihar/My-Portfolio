@@ -56,12 +56,12 @@ const ContactMe = () => {
                     </div>
                 </div>
                     <form onSubmit={onSubmit} className='contact-right'>
-                        <label htmlFor="Your Name"></label>
-                        <input type="text" placeholder='Enter your name' name='name' />
-                        <label htmlFor="Your Email"></label>
-                        <input type="email" placeholder='Enter your email' name='email' />
-                        <label htmlFor="Write your message here"></label>
-                        <textarea name="message" rows='8' placeholder='Enter your message'></textarea>
+                        <label htmlFor="Your Name">Enter Your Name : </label>
+                        <input type="text" id="Your Name" placeholder='Enter your name' name='name' required/>
+                        <label htmlFor="Your Email">Enter Your Email : </label>
+                        <input type="email" id="Your Email" placeholder='Enter your email' name='email' required/>
+                        <label htmlFor="message">Write your message here : </label>
+                        <textarea name="message" id='message' rows='8' placeholder='Enter your message'></textarea>
                         <button type='submit' className="contact-submit">Submit now</button>
                     </form>
             </div>

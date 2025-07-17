@@ -69,7 +69,14 @@
     background-color: #0056b3;
 }
 
-
+@media (max-width:9988px) {
+    .resume-frame {
+    width: 100vw;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    }
+}
 @media (max-width:768px) {
 
     .resume-img-section {
