@@ -70,7 +70,7 @@
 }
 .contact-right input{
     border: none;
-    width: 30rem;
+    width: 100%;
     height: 2.2rem;
     padding-left: 1rem;
     border-radius: 0.4rem;
@@ -80,7 +80,7 @@
     font-size: 1rem;
 }
 .contact-right textarea{
-    width: 30rem;
+    width: 100%;
     border: none;
     padding: 1rem;
     border-radius: 0.3rem;
