@@ -1,6 +1,6 @@
 import React from 'react'
 import './Resume.css'
-import resume_img from '../../assets/resume1.jpg'
+import resume_img from '../../assets/resume2.jpg'
 import theme from '../../assets/theme_pattern.svg'
 const Resume = () => {
     return (
